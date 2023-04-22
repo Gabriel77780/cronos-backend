@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: 'mongodb://${MONGOUSER}:${MONGOPASSWORD}@${MONGOHOST}:${MONGOPORT}'
+
+cors:
+  allowed-origins: ${CORS_ALLOWED_ORIGINS}
