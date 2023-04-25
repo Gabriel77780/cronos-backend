@@ -21,8 +21,6 @@ public class Question {
 
     private String questionText;
 
-//    private Category category;
-
     private List<Answer> answers;
 
 }
